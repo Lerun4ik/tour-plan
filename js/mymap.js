@@ -16,6 +16,6 @@
          balloonContent: 'H'
 });
   myMap.geoObjects.add(myPlacemark);
-  disable('scrollZoom')
+  myMap.behaviors.disable('scrollZoom');
+  
 }
-map.behaviors.disable('drag'); 
