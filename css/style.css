@@ -1,11 +1,11 @@
 * {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Mulish', sans-serif;
-  background-color: #F5FAFE;
+  font-family: "Mulish", sans-serif;
+  background-color: #f5fafe;
   color: #333333;
 }
 
@@ -65,7 +65,7 @@ h1 {
  */
 hr {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
@@ -103,7 +103,7 @@ abbr[title] {
   text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -251,7 +251,7 @@ fieldset {
  */
 legend {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   color: inherit;
   /* 2 */
@@ -286,7 +286,7 @@ textarea {
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   /* 1 */
   padding: 0;
   /* 2 */
@@ -370,11 +370,11 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -389,7 +389,7 @@ template {
 }
 
 .navbar-bottom {
-  background-color: #0A223D;
+  background-color: #0a223d;
 }
 
 .navbar-menu {
@@ -400,11 +400,11 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   color: #fff;
 }
 
@@ -435,7 +435,7 @@ template {
   height: 100%;
   padding-left: 23px;
   padding-right: 75px;
-  background: #F5FAFE;
+  background: #f5fafe;
   border: none;
   font-size: 12px;
   line-height: 15px;
@@ -449,7 +449,7 @@ template {
   width: 65px;
   height: 100%;
   border: none;
-  background-color: #EC1F46;
+  background-color: #ec1f46;
 }
 
 .user {
@@ -457,8 +457,8 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-decoration: none;
 }
 
@@ -467,7 +467,7 @@ template {
   height: 40px;
   border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .user__name {
@@ -482,8 +482,8 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 18px 0;
   margin: 0;
   list-style: none;
@@ -495,7 +495,7 @@ template {
 }
 
 .breadcrumb-list__item:not(:last-child)::after {
-  content: '/';
+  content: "/";
   margin-right: 4px;
 }
 
@@ -514,11 +514,11 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   padding-bottom: 20px;
 }
 
@@ -546,10 +546,10 @@ template {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .hotel-description {
@@ -562,8 +562,8 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .hotel-right {
@@ -572,11 +572,11 @@ template {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .hotel-slider {
@@ -601,8 +601,18 @@ template {
   bottom: 0;
   left: 0;
   right: 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 122, 223, 0.48)), to(rgba(255, 255, 255, 0.128)));
-  background: linear-gradient(180deg, rgba(0, 122, 223, 0.48) 0%, rgba(255, 255, 255, 0.128) 100%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(0, 122, 223, 0.48)),
+    to(rgba(255, 255, 255, 0.128))
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(0, 122, 223, 0.48) 0%,
+    rgba(255, 255, 255, 0.128) 100%
+  );
   z-index: 1;
 }
 
@@ -610,7 +620,7 @@ template {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
+  transform: translateY(-50%);
   z-index: 10;
   width: 30px;
   height: 30px;
@@ -638,14 +648,14 @@ template {
 
 .stars {
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
 }
 
 .offer {
   font-size: 10px;
   line-height: 13px;
   padding: 4px 9px;
-  background-color: #EC1F46;
+  background-color: #ec1f46;
   border-radius: 3px;
   color: #fff;
 }
@@ -655,7 +665,7 @@ template {
   min-height: 45px;
   text-align: center;
   color: #fff;
-  background-color: #EC1F46;
+  background-color: #ec1f46;
   border-radius: 4px;
 }
 
@@ -671,7 +681,7 @@ template {
 
 .booking {
   font-family: Nunito;
-  background-color: #0A223D;
+  background-color: #0a223d;
   color: #fff;
   border-radius: 8px;
   width: 350px;
@@ -684,8 +694,8 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 9px;
 }
 
@@ -695,8 +705,8 @@ template {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .booking__start {
@@ -728,11 +738,11 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 8px;
   font-style: normal;
   font-weight: normal;
@@ -749,11 +759,11 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-bottom: 17px;
 }
 
@@ -769,11 +779,11 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   color: inherit;
   text-decoration: none;
   font-weight: 600;
@@ -792,7 +802,7 @@ template {
   font-size: 14px;
   line-height: 19px;
   border-radius: 4px;
-  background-color: #EC1F46;
+  background-color: #ec1f46;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -837,11 +847,11 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   max-width: 731px;
   margin: auto;
 }
@@ -889,7 +899,7 @@ template {
   top: 0;
   height: 100%;
   border: none;
-  background-color: #EC1F46;
+  background-color: #ec1f46;
   color: #fff;
 }
 
@@ -914,11 +924,11 @@ template {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   max-width: 731px;
   background-color: #fff;
   border-radius: 8px;
@@ -927,7 +937,7 @@ template {
 }
 
 .reviews-slider__item::before {
-  content: '';
+  content: "";
   position: absolute;
   left: 62px;
   top: 13px;
@@ -938,7 +948,7 @@ template {
 }
 
 .reviews-slider__item::after {
-  content: '';
+  content: "";
   position: absolute;
   right: 62px;
   top: 118px;
@@ -952,7 +962,7 @@ template {
   position: absolute;
   top: 50%;
   -webkit-transform: transateY(-50%);
-          transform: transateY(-50%);
+  transform: transateY(-50%);
   widows: 30px;
   height: 30px;
   background-repeat: no-repeat;
@@ -984,11 +994,11 @@ template {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin-top: -45px;
   margin-bottom: 30px;
 }
@@ -998,7 +1008,7 @@ template {
   height: 90px;
   border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin-bottom: 9px;
 }
 
@@ -1007,7 +1017,7 @@ template {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-  color: #EC1F46;
+  color: #ec1f46;
   margin-bottom: 10px;
 }
 
@@ -1024,8 +1034,8 @@ template {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .reviews-slider__text {
@@ -1049,12 +1059,13 @@ template {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
 }
 
 @media (max-width: 992px) {
-  .container, .newsletter-wrapper {
+  .container,
+  .newsletter-wrapper {
     max-width: 700px;
   }
   .logo {
@@ -1071,8 +1082,8 @@ template {
   .hotel-grid {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .hotel__slider {
     margin-bottom: 30px;
@@ -1080,8 +1091,8 @@ template {
   .hotel-right {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
   }
   .hotel-slider {
     width: 100%;
@@ -1113,7 +1124,9 @@ template {
     max-width: 576px;
     width: 92%;
   }
-  .navbar__search, .navbar-menu, .navbar__user {
+  .navbar__search,
+  .navbar-menu,
+  .navbar__user {
     display: none;
     border: none;
   }
@@ -1124,15 +1137,15 @@ template {
     width: 16px;
     height: 11px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     border: none;
     background-color: #fff;
     cursor: pointer;
@@ -1144,17 +1157,17 @@ template {
   }
   .stars {
     -ms-flex-preferred-size: auto;
-        flex-basis: auto;
+    flex-basis: auto;
     margin-left: 0;
   }
   .hotel-name {
     -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
+    flex-basis: 100%;
   }
   .hotel-wrapper {
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
   .hotel-info__text {
     width: 100%;
@@ -1168,8 +1181,8 @@ template {
   }
   .hotel-info__offer {
     -webkit-box-ordinal-group: 0;
-        -ms-flex-order: -1;
-            order: -1;
+    -ms-flex-order: -1;
+    order: -1;
     margin-left: 0;
   }
   .booking {
@@ -1178,8 +1191,8 @@ template {
   .hotel-right {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     min-height: 450px;
   }
   .hotel-slider {
@@ -1196,16 +1209,17 @@ template {
     width: 92%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
   .reviews-slider__item {
     padding: 0 30px 30px;
   }
-  .reviews-slider__item:after, .reviews-slider__item::before {
+  .reviews-slider__item:after,
+  .reviews-slider__item::before {
     display: none;
   }
   .reviews-slider__button {
@@ -1214,14 +1228,14 @@ template {
   .reviews-slider__button--prev {
     left: 50%;
     -webkit-transform: translate -50%, 0;
-            transform: translate -50%, 0;
+    transform: translate -50%, 0;
     margin-left: -95px;
   }
   .reviews-slider__button--next {
     right: 50%;
     margin-right: -95px;
     -webkit-transform: translate 50%, 0;
-            transform: translate 50%, 0;
+    transform: translate 50%, 0;
   }
 }
 
