@@ -11,6 +11,38 @@
     display: flex
     justify-content: space-between
 .card
-  border: 1px solid red
+  padding: 24px 26px
+  display: flex
+  position: relative
   font-drectional: column
+  align-items: flex-start
+  width: 255px
+  height: 255px
+  border-radius: 6px
+  overflow: hidden
+  &::before
+    contain: ''
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    background: linear-gradient(179.83deg, rgba(196, 196, 196, 0) 35.34%, #0A223D 99.85%)
+  &__button
+    display: block
   &__image
+    position: absolute
+    left: 0
+    right: 0
+    top: 0
+    bottom: 0
+    object-fit: cover
+    z-index: -1
+  &__title
+    margin-top: auto
+    margin-bottom: 18px
+    color: $light
+    font-style: normal
+    font-weight: bold
+    font-size: 16px
+    line-height: 20px
