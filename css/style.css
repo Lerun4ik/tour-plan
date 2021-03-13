@@ -831,8 +831,13 @@ template {
   padding: 98px 0 87px 0;
   background-image: url(../img/newsletter-bg.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
   height: 260px;
 }
 
