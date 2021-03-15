@@ -24,6 +24,9 @@
   .logo
     width: 132px
   .navbar
+    &-menu
+      max-width: 673px
+      margin: auto
     &-top
       padding-top: 30px
       padding-bottom: 30px
@@ -74,6 +77,8 @@
         top: 45%
       &__item
         max-width: 580px
+        &:after, &::before
+          display: none
   .activities
     padding: 55px 0 98px 0
     &-wrapper
@@ -98,7 +103,8 @@
     padding: 12px 25px
   .breadcrumb-list
     padding: 12px 0
-
+  .swiper-container
+    max-width: 700px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -190,6 +196,10 @@
   .hotel
     padding-top: 0
     padding-bottom: 40px
+    &-info
+      padding-bottom: 40px
+      &__description
+        margin: 0
     &__slider
       margin-bottom: 20px
     &-slider
@@ -214,9 +224,9 @@
     line-height: 23px
     text-align: center
     text-transform: uppercase
-    margin-bottom: 46px
-  .container
-    max-width: 280px
+    padding-bottom: 46px
+    max-width: 230px
+    margin: auto
   .navbar-top
     margin-bottom: 0
   .breadcrumb
@@ -237,3 +247,20 @@
     line-height: 23px
     text-transform: uppercase
     margin-bottom: 36px
+@media ( max-width: 576px )
+  .reviews-slider__item
+    padding: 0 30px 30px
+    &__text
+      max-width: 537px
+      font-style: normal
+      font-weight: normal
+      font-size: 12px
+      line-height: 160%
+      text-align: justify
+      margin: auto
+  .container
+    max-width: 290px
+  .swiper-slide
+    max-width: 290px
+  .swiper-container
+    margin-right: 0
