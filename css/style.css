@@ -1623,6 +1623,7 @@ template {
     top: 0;
     right: 0;
     z-index: 99;
+    min-height: 78px;
   }
   .navbar__user--mobile_hidden, .navbar__search--mobile_hidden {
     display: none;
