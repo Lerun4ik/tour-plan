@@ -149,10 +149,53 @@
   .container
     max-width: 576px
     width: 92%
+  body
+    padding-top: 80px
   .navbar
-    &__search, &-menu, &__user
+    &__search
+      &--mobile
+        &_visible
+          max-width: 245px
+          margin-left: 0
+          &-mb
+            margin-bottom: 39px
+    &__mobile
+      &--fixed
+        position: fixed
+        left: 0
+        top: 0
+        right: 0
+        z-index: 99
+    &__user, &__search
+      &--mobile
+        &_hidden
+          display: none
+        &_visible
+          display: flex
+    &__user
+      flex-direction: column
+      justify-content: center
+    &-bottom
       display: none
-      border: none
+      position: fixed
+      left: 0
+      right: 0
+      bottom: 0
+      top: 78px
+      padding-top: 30px
+      overflow: scroll
+      &--visible
+        display: block
+    &-menu
+      flex-direction: column
+      padding-top: 0
+      &__item
+        &-mb:not(:last-of-type)
+          margin-bottom: 17px
+        &--mobile
+          &_visible
+            display: block
+
   .menu
     &-button
       display: flex
@@ -168,6 +211,13 @@
         width: 16px
         height: 1px
         background-color: $text-color
+  .user
+    &__name
+      &--light
+        color: $light
+        margin-left: 0
+        margin-top: 10px
+        margin-bottom: 27px
   .stars
     flex-basis: auto
     margin-left: 0
@@ -313,8 +363,8 @@
     margin-right: 0
   .footer
     padding: 70px 0 0 0
-    &__link
-      padding: 5px
+    &__link:not(:last-of-type)
+      margin-right: 8px
     &__title
       &--inline
         margin-bottom: 20px
