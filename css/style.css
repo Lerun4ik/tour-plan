@@ -1160,6 +1160,11 @@ template {
   padding-bottom: 46px;
 }
 
+.footer__phone-number {
+  text-decoration: none;
+  color: inherit;
+}
+
 .footer__image {
   display: inline;
 }
@@ -1323,6 +1328,7 @@ template {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
   margin-bottom: 23px;
+  max-height: 123px;
 }
 
 .footer__button {
@@ -1361,6 +1367,7 @@ template {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: end;
+  cursor: pointer;
 }
 
 .footer__pay-text {
@@ -1376,10 +1383,12 @@ template {
           align-items: center;
   width: 283px;
   margin-right: 277px;
+  cursor: pointer;
 }
 
 .footer__icon-pay {
   grid-column: span 2;
+  cursor: pointer;
 }
 
 @media (max-width: 1200px) {
@@ -1542,12 +1551,13 @@ template {
     max-width: 700px;
   }
   .footer {
+    grid-gap: 50px;
     /*&__legal
      grid-column: span 2 */
   }
   .footer-wrapper {
-    -ms-grid-columns: pereat(6, 1fr);
-        grid-template-columns: pereat(6, 1fr);
+    -ms-grid-columns: pereat(6, 100px);
+        grid-template-columns: pereat(6, 100px);
     grid-row-gap: 40px;
   }
   .footer-wrapper-text {
@@ -1565,6 +1575,7 @@ template {
     -ms-grid-row-span: 1;
     grid-row: 1/2;
     grid-column: span 2;
+    width: 100px;
   }
   .footer__social-network {
     -ms-grid-row: 1;
@@ -1593,6 +1604,7 @@ template {
     grid-column: span 5;
     -ms-grid-row: 4;
     grid-row: 4;
+    width: 80%;
   }
   .footer__pay {
     grid-column: span 5;
@@ -1968,6 +1980,7 @@ template {
     grid-row: 7;
     -ms-grid-column: 1;
     grid-column: 1;
+    width: 100%;
   }
   .footer__pay {
     -ms-grid-row: 8;
