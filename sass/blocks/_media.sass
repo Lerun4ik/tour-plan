@@ -123,7 +123,6 @@
     &__input
       flex-basis: 49%
     &__logo
-      grid-row: 1/2
       grid-column: span 2
       width: 100px
     &__social
@@ -149,6 +148,7 @@
     &__pay
       grid-column: span 5
       justify-content: space-between
+
 @media (max-width: 765px)
   .container
     max-width: 576px
@@ -285,12 +285,17 @@
   .card
     width: 49%
     height: 255px
-  .footer__icon-pay
-    grid-column: span 2
-    min-width: 136px
-  .footer__pay-text
-    font-size: 10px
-    margin-right: auto
+  .footer
+    &__icon-pay
+      grid-column: span 2
+      min-width: 136px
+    &__pay-text
+      font-size: 10px
+      margin-right: auto
+    &__logo
+      grid-row: 1/1
+    &__input
+      flex-basis: 100%
 @media ( max-width: 576px )
   .logo
     width: 99px
@@ -301,6 +306,8 @@
       padding-bottom: 40px
       &__description
         margin: 0
+      &__offer
+        margin-top: 0
     &__slider
       margin-bottom: 20px
     &-slider
@@ -421,3 +428,6 @@
       font-weight: normal
       font-size: 14px
       line-height: 160%
+  .booking
+    padding: 33px 20px 26px
+    margin-bottom: 20px
