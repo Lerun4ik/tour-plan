@@ -41,6 +41,15 @@ var closeModalButton = $(".modal__close")
 modalButton.on("click", openModal);
 closeModalButton.on('click', closeModal);
 
+$(document).on('keyup',function(event){
+     if (event.keyCode === 27) {closeModal(event)};
+});
+
+$(document).on('click',function(event){
+ var target=$(event.target)
+     if (target.is('.modal__overlay.modal__overlay--visible')){closeModal(event)};
+});
+
 function openModal() {
   var modalOverlay = $(".modal__overlay");
   var modalDialog = $(".modal__dialog");
