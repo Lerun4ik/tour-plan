@@ -63,10 +63,8 @@ function closeModal(event) {
   modalOverlay.removeClass('modal__overlay--visible');
   modalDialog.removeClass('modal__dialog--visible');
 }
-$(function(){
-  //2. Получить элемент, к которому необходимо добавить маску
-  $("#phone").mask("+7(999) 999-9999");
-});
+$("#phone").mask("+7(999) 999-9999");
+$("#phone-2").mask("+7(999) 999-9999");
 //Обработка форм
 $(".form").each(function () {
   $(this).validate({
