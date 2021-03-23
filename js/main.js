@@ -83,9 +83,9 @@ $(".form").each(function () {
     },
   },
 });
-}
-)
+})
 });
+AOS.init();
 let newsletter=document.getElementById('newsletter');
 this.addEventListener("scroll",function(){
 newsletter.style["backgroundPositionY"]=100-1913/1842*this.scrollY/1842*100+'%';
