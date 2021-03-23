@@ -63,6 +63,30 @@ function closeModal(event) {
   modalOverlay.removeClass('modal__overlay--visible');
   modalDialog.removeClass('modal__dialog--visible');
 }
+$(function(){
+  //2. Получить элемент, к которому необходимо добавить маску
+  $("#phone").mask("+7(999) 999-9999");
+});
+//Обработка форм
+$(".form").each(function () {
+  $(this).validate({
+  errorClass: "invalid",
+  messages: {
+    name: {
+      required: "Укажите имя",
+      minlength: "Имя должно быть не короче 2 букв"
+    },
+    email: {
+      required: "We need your email address to contact you",
+      email: "Your email address must be in the format of name@domain.com ",
+    },
+    phone: {
+      required: "Телефон обязателен",
+    },
+  },
+});
+}
+)
 });
 let newsletter=document.getElementById('newsletter');
 this.addEventListener("scroll",function(){

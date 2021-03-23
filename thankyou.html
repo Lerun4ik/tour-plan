@@ -21,7 +21,7 @@
   <header class="navbar navbar__mobile--fixed">
     <div class="container">
       <div class="navbar-top">
-        <a href="https://lera-shakhova.ru/homeworks/lesson-22/" class="logo">
+        <a href="https://lera-shakhova.ru/homeworks/lesson-29/" class="logo">
           <img src="img/horizont-logo.svg" alt="Logo: Best Tour Plan" class="logo__image">
         </a>
         <form action="#" class="search navbar__search navbar__search--mobile_hidden">
@@ -97,10 +97,10 @@
   </nav>
   <!-- /.breadcrumb -->
   <div class="container">
-            <h1 class="hotel-name hotel-info__name">Сообщение отправлено!</h1>
-          <h3 class="hotel-description hotel-info__description">Наш менеджер с Вами свяжется, в течении 5 минут!</h3>
-        <a href="https://lera-shakhova.ru/homeworks/lesson-28/">
-          <button class="button button__home" type="submit">Home</button>
+            <h1 class="hotel-name hotel-info__name">Message sent!</h1>
+          <h3 class="hotel-description hotel-info__description">Our manager will contact you within 5 minutes!</h3>
+         <a href="https://lera-shakhova.ru/homeworks/lesson-29/"> 
+          <button class="button button__home button-auto" type="submit">Home</button>
           </a>
   </div>
   <footer class="footer">
@@ -191,8 +191,8 @@
           <form action="send.php" method="POST" class="footer__form">
             <input type="text" class="input footer__input" placeholder="Your Full Name*" name="name">
             <input type="text" class="input footer__input" placeholder="Phone Number*" name="phone">
-            <textarea class="footer__message" placeholder="Message" name="message"></textarea>
-            <button class="button footer__button" type="submit">Send</button>
+            <textarea class="footer__message footer__input input" placeholder="Message" name="message"></textarea>
+            <button class="button footer__button button-auto" type="submit">Send</button>
             <span class="footer__info">* Required Fields</span>
           </form>
         </div>
@@ -210,8 +210,10 @@
     </div>
     <!-- /.container -->
   </footer>
+  <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
   <script src="js/mymap.js"></script>
 </body>
 

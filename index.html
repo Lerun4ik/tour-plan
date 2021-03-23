@@ -25,7 +25,7 @@
         </a>
         <form action="#" class="search navbar__search navbar__search--mobile_hidden">
           <input type="text" class="search__input" placeholder="Search Location">
-          <button class="search__button" type = "submit">
+          <button class="search__button button-auto" type = "submit">
             <img src="img/search.svg" alt="Icon: search">
           </button>
         </form>
@@ -34,10 +34,10 @@
           <span class="user__name">Nathan</span>
         </a>
         <!-- /.user -->
-        <button class="menu-button navbar-top__menu-button">
-          <span class="menu-button__line"></span>
-          <span class="menu-button__line"></span>
-          <span class="menu-button__line"></span>
+        <button class="menu-button button-auto navbar-top__menu-button button-auto">
+          <span class="menu-button__line button-auto button-auto"></span>
+          <span class="menu-button__line button-auto button-auto"></span>
+          <span class="menu-button__line button-auto button-auto"></span>
         </button>
       </div>
       <!-- /.navbar-top -->
@@ -48,7 +48,7 @@
           <div class="container">
             <ul class="navbar-menu">
               <li class="navbar-menu__item navbar-menu__item--mobile_visible">
-                <a href="#" class="user navbar__user navbar__user--mobile_visible">
+                <a href="#" class="user navbar__user button-auto navbar__user--mobile_visible">
                   <img src="img/user-avatar.jpg" alt="Avatar: Nathan" class="user__avatar">
                   <span class="user__name user__name--light">Nathan</span>
                 </a>
@@ -57,7 +57,7 @@
               <li class="navbar-menu__item navbar-menu__item--mobile_visible">
                 <form action="#" class="search navbar__search navbar__search--mobile_visible navbar__search--mobile_visible-mb">
                   <input type="text" class="search__input" placeholder="Search Location">
-                  <button class="search__button" type="submit">
+                  <button class="search__button button-auto" type="submit">
                     <img src="img/search.svg" alt="Icon: search">
                   </button>
                 </form>
@@ -132,8 +132,8 @@
               <div class="swiper-slide hotel-slider__item"><img class="hotel-slider__image" src="img/slide-5.jpg" alt="slide"></div>
             </div>
             <!-- If we need navigation buttons -->
-            <button class="hotel-slider__button hotel-slider__button--prev"></button>
-            <button class="hotel-slider__button hotel-slider__button--next"></button>
+            <button class="hotel-slider__button button-auto hotel-slider__button--prev"></button>
+            <button class="hotel-slider__button button-auto hotel-slider__button--next"></button>
           </div>
           <!-- /.swiper-container -->
        
@@ -165,10 +165,10 @@
                       </a>
                     </div>
                     <!-- /.bookig__call-center -->
-                    <button data-toggle ="modal" class="button booking__button">View Other Options</button>
+                    <button data-toggle ="modal" class="button  button-auto booking__button">View Other Options</button>
                   </div>
                   <!-- /.booking -->
-                  <div class="map-container">
+                  <div class="map-container map-container__mt">
                     <div id="map" class="map-container"></div>
                   </div>
                   <!-- /.map-container -->
@@ -184,8 +184,8 @@
         <span class="newsletter-title__strong">New sletter</span>
       </h2>
       <form action="send.php" method="POST"  class="subscribe newsletter__subscribe">
-        <input type="text" class="subscribe__input" placeholder="Your email address" name = "email" >
-        <button class="subscribe__button"  type = "submit">Send</button>
+        <input type="email" class="subscribe__input" placeholder="Your email address" name = "email" >
+        <button class="subscribe__button button-auto"  type = "submit">Send</button>
       </form>
     </div>
   </section>
@@ -284,8 +284,8 @@
        </div>
         <!-- /.swiper-wrapper -->
 
-        <button class="reviews-slider__button reviews-slider__button--prev"></button>
-        <button class="reviews-slider__button reviews-slider__button--next">
+        <button class="reviews-slider__button button-auto reviews-slider__button--prev"></button>
+        <button class="reviews-slider__button button-auto reviews-slider__button--next">
         </button>
       </div>
       <!-- /.reviews-slider -->
@@ -298,23 +298,23 @@
         <div class="card activities__card">
           <img src="img/activity-1.jpg" alt="The curious corner of chamarel" class="card__image">
           <h3 class="card__title">The curious corner <br> of chamarel</h3>
-          <button class="card__button">Book Now</button>
+          <button class="card__button button-auto">Book Now</button>
         </div>
         <!-- /.card -->
         <div class="card activities__card">
           <img src="img/activity-2.jpg" alt="Gymkhana club golf course" class="card__image">
           <h3 class="card__title">Gymkhana club golf <br> course</h3>
-          <button class="card__button">Book Now</button>
+          <button class="card__button button-auto">Book Now</button>
         </div>
         <!-- /.card --><div class="card activities__card">
           <img src="img/activity-3.jpg" alt="Tamarind falls hiking trip - full day" class="card__image">
           <h3 class="card__title">Tamarind falls hiking <br> trip - full day</h3>
-          <button class="card__button">Book Now</button>
+          <button class="card__button button-auto">Book Now</button>
         </div>
         <!-- /.card --><div class="card activities__card">
           <img src="img/activity-4.jpg" alt="The blue marine discovery quest" class="card__image">
           <h3 class="card__title">The blue marine discovery <br> quest</h3>
-          <button class="card__button">Book Now</button>
+          <button class="card__button button-auto">Book Now</button>
         </div>
         <!-- /.card -->
       </div>
@@ -324,7 +324,7 @@
     <div class="container">
       <div class="footer-wrapper">
       <a href="https://lera-shakhova.ru/homeworks/lesson-28/" class="logo footer__logo"> 
-        <img href="https://lera-shakhova.ru/homeworks/lesson-28/" src="img/vertical-logo.svg" alt="Logo: Best Tour Plan" class="logo footer__logo"></a>
+        <img src="img/vertical-logo.svg" alt="Logo: Best Tour Plan" class="logo footer__logo"></a>
         <div class="footer__list footer__categories">
           <h3 class="footer__title">ALL CATEGORIES</h3>
           <ul class="footer__ul">
@@ -406,11 +406,15 @@
           <!-- /footer__contact-details -->
           <div class="footer__contact-form">
             <h3 class="footer__title footer__title--mb-3">Send us a message</h3>
-          <form action="send.php" method="POST" class="footer__form">
-            <input type="text" class="input footer__input" placeholder="Your Full Name*" name="name">
-            <input type="text" class="input footer__input" placeholder="Phone Number*" name="phone">
+          <form action="send.php" method="POST" class="footer__form form">
+            <div class="footer__input-group">
+              <input type="text" class="input footer__input" placeholder="Your Full Name*" name="name" required>
+            </div>
+            <div class="footer__input-group">
+              <input type="tel" class="input footer__input" placeholder="Phone Number*" name="phone" id="phone" required>
+            </div>
           <textarea class="message footer__message" placeholder="Message" name="message"></textarea>
-          <button class="button footer__button" type="submit">Send</button>
+          <button class="button button-auto footer__button" type="submit">Send</button>
           <span class="footer__info">* Required Fields</span>
           </form>
           </div>
@@ -436,13 +440,13 @@
         <img src="img/close.svg" alt="icon: close">
       </a>
         <h3 class="modal__title modal__title--mb-3">Send us a message</h3>
-        <form action="send.php" method="POST" class="modal__form">
-          <input type="text" class="input modal__input" placeholder="Your Full Name*" name="name">
-          <input type="text" class="input modal__input" placeholder="Phone Number*" name="phone">
-          <input type="text" class="input modal__input" placeholder="Your email address" name="email">
+        <form action="send.php" method="POST" class="modal__form form">
+          <input type="text" class="input modal__input" placeholder="Your Full Name*" name="name" required minlength="2">
+          <input type="tel" class="input modal__input" placeholder="Phone Number*" name="phone" id="phone" required>
+          <input type="email" class="input modal__input" placeholder="Your email address" name="email" required>
           <textarea class="message modal__message" placeholder="Message" name="message"></textarea>
           <div class="modal__info-section modal__info-section-visible">
-          <button class="button modal__button" type="submit">Send</button>
+          <button class="button button-auto modal__button" type="submit">Send</button>
           <span class="modal__info">* Required Fields</span>
           </div>
         </form>
@@ -451,6 +455,8 @@
   <!-- /.modal -->
   <script src="js/jquery-3.6.0.min.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/jquery.validate.min.js"></script>
+  <script src="js/jquery.maskedinput.min.js"></script>
   <script src="js/main.js"></script>
   <script src="js/mymap.js"></script>
 </body>
