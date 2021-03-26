@@ -57,7 +57,7 @@
             <ul class="navbar-menu">
               <li class="navbar-menu__item navbar-menu__item--mobile_visible">
                 <a href="#" class="user navbar__user button-auto navbar__user--mobile_visible">
-                  <img src="img/user-avatar.jpg" alt="Avatar: Nathan" class="user__avatar">
+                  <img src="img/user-avatar.jpeg" alt="Avatar: Nathan" class="user__avatar">
                   <span class="user__name user__name--light">Nathan</span>
                 </a>
                 <!-- /.user -->
@@ -107,11 +107,11 @@
         <div class="hotel-info__text">
           <div class="hotel-wrapper">
             <div class="stars">
-              <img src="img/star.svg" alt="star">
-              <img src="img/star.svg" alt="star">
-              <img src="img/star.svg" alt="star">
-              <img src="img/star.svg" alt="star">
-              <img src="img/star.svg" alt="star">
+              <img class="stars-margin" src="img/star.svg" alt="star">
+              <img class="stars-margin" src="img/star.svg" alt="star">
+              <img class="stars-margin" src="img/star.svg" alt="star">
+              <img class="stars-margin" src="img/star.svg" alt="star">
+              <img class="stars-margin" src="img/star.svg" alt="star">
             </div>
             <h1 class="hotel-name hotel-info__name">GRAND HILTON HOTEL</h1>
             <span class="offer hotel-info__offer">Flash Offer</span>
@@ -133,11 +133,11 @@
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="swiper-slide hotel-slider__item"><img class="hotel-slider__image" src="img/slide-1.jpg" alt="slide"></div>
-              <div class="swiper-slide hotel-slider__item"><img class="hotel-slider__image" src="img/slide-2.jpg" alt="slide"></div>
-              <div class="swiper-slide hotel-slider__item"><img class="hotel-slider__image" src="img/slide-3.jpg" alt="slide"></div>
-              <div class="swiper-slide hotel-slider__item"><img class="hotel-slider__image" src="img/slide-4.jpg" alt="slide"></div>
-              <div class="swiper-slide hotel-slider__item"><img class="hotel-slider__image" src="img/slide-5.jpg" alt="slide"></div>
+              <div class="swiper-slide hotel-slider__item"><img class="hotel-slider__image" src="img/slide-1.jpeg" alt="slide"></div>
+              <div class="swiper-slide hotel-slider__item"><img class="hotel-slider__image" src="img/slide-2.jpeg" alt="slide"></div>
+              <div class="swiper-slide hotel-slider__item"><img class="hotel-slider__image" src="img/slide-3.jpeg" alt="slide"></div>
+              <div class="swiper-slide hotel-slider__item"><img class="hotel-slider__image" src="img/slide-4.jpeg" alt="slide"></div>
+              <div class="swiper-slide hotel-slider__item"><img class="hotel-slider__image" src="img/slide-5.jpeg" alt="slide"></div>
             </div>
             <!-- If we need navigation buttons -->
             <button class="hotel-slider__button button-auto hotel-slider__button--prev"></button>
@@ -193,7 +193,8 @@
         <span class="newsletter-title__strong">New sletter</span>
       </h2>
       <form action="send.php" method="POST"  class="subscribe newsletter__subscribe" data-aos="fade-left" data-aos-delay="600">
-        <input type="email" class="subscribe__input" placeholder="Your email address" name = "email" >
+        <input type="email" class="input subscribe__input" placeholder="Your email address" name = "email" required >
+        <!-- <input type="email" class="input modal__input" placeholder="Your email address" name="email" required> -->
         <button class="subscribe__button button-auto"  type = "submit">Send</button>
       </form>
     </div>
@@ -210,11 +211,11 @@
               <h3 class="reviews-slider__username">Megan Fox</h3>
               <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
               <div class="reviews-slider__raiting">
-                <img src="img/star.svg" alt="star">
-                <img src="img/star.svg" alt="star">
-                <img src="img/star.svg" alt="star">
-                <img src="img/star.svg" alt="star">
-                <img src="img/star.svg" alt="star">
+                <img class="stars-margin" src="img/star.svg" alt="star">
+                <img class="stars-margin" src="img/star.svg" alt="star">
+                <img class="stars-margin" src="img/star.svg" alt="star">
+                <img class="stars-margin" src="img/star.svg" alt="star">
+                <img class="stars-margin" src="img/star.svg" alt="star">
               </div>
               <!-- /.review-slider__raiting -->
             </div>
@@ -232,7 +233,7 @@
           <div class="swiper-slide">
             <div class="reviews-slider__item">
               <div class="reviews-slider__profile">
-                <img src="img/reviews-avatar-2.jpg" alt="Photo: Robert Jonse" class="reviews-slider__avatar">
+                <img src="img/reviews-avatar-2.jpeg" alt="Photo: Robert Jonse" class="reviews-slider__avatar">
                 <h3 class="reviews-slider__username">Robert Jonse</h3>
                 <span class="reviews-slider__date">Stayed 20 dec, 2020</span>
                 <div class="reviews-slider__raiting">
@@ -262,7 +263,7 @@
           <div class="swiper-slide">
             <div class="reviews-slider__item">
               <div class="reviews-slider__profile">
-                <img src="img/reviews-avatar-3.jpg" alt="Photo: Mishel Obama" class="reviews-slider__avatar">
+                <img src="img/reviews-avatar-3.jpeg" alt="Photo: Mishel Obama" class="reviews-slider__avatar">
                 <h3 class="reviews-slider__username">Mishel Obama</h3>
                 <span class="reviews-slider__date">Stayed 23 Jun, 2021</span>
                 <div class="reviews-slider__raiting">
@@ -292,7 +293,6 @@
            <!-- /.swiper-slide -->
        </div>
         <!-- /.swiper-wrapper -->
-
         <button class="reviews-slider__button button-auto reviews-slider__button--prev"></button>
         <button class="reviews-slider__button button-auto reviews-slider__button--next">
         </button>
@@ -306,30 +306,30 @@
       <div class="activities-wrapper">
         <div class="card activities__card" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-delay="300">
-          <img src="img/activity-1.jpg" alt="The curious corner of chamarel" class="card__image">
+          <img src="img/activity-1.jpeg" alt="The curious corner of chamarel" class="card__image">
           <h3 class="card__title">The curious corner <br> of chamarel</h3>
-          <a class="card__button button-auto" href="https://lera-shakhova.ru/index.html">Book Now</a>
+          <button class="card__button button-auto" data-toggle="modal">Book Now</button>
         </div>
         <!-- /.card -->
         <div class="card activities__card" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-delay="500">
-          <img src="img/activity-2.jpg" alt="Gymkhana club golf course" class="card__image">
+          <img src="img/activity-2.jpeg" alt="Gymkhana club golf course" class="card__image">
           <h3 class="card__title">Gymkhana club golf <br> course</h3>
-          <a class="card__button button-auto" href="https://lera-shakhova.ru/index.html">Book Now</a>
+          <button class="card__button button-auto" data-toggle="modal">Book Now</button>
         </div>
         <!-- /.card -->
         <div class="card activities__card" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-delay="700">
-          <img src="img/activity-3.jpg" alt="Tamarind falls hiking trip - full day" class="card__image">
+          <img src="img/activity-3.jpeg" alt="Tamarind falls hiking trip - full day" class="card__image">
           <h3 class="card__title">Tamarind falls hiking <br> trip - full day</h3>
-          <a class="card__button button-auto" href="https://lera-shakhova.ru/index.html">Book Now</a>
+          <button class="card__button button-auto" data-toggle="modal">Book Now</button>
         </div>
         <!-- /.card -->
         <div class="card activities__card" data-aos="fade-up"
      data-aos-anchor-placement="bottom-bottom" data-aos-delay="900">
-          <img src="img/activity-4.jpg" alt="The blue marine discovery quest" class="card__image">
+          <img src="img/activity-4.jpeg" alt="The blue marine discovery quest" class="card__image">
           <h3 class="card__title">The blue marine discovery <br> quest</h3>
-          <a class="card__button button-auto" href="https://lera-shakhova.ru/index.html">Book Now</a>
+          <button class="card__button button-auto" data-toggle="modal">Book Now</button>
         </div>
         <!-- /.card -->
       </div>
@@ -412,7 +412,7 @@
                 <div class="footer__icon-wrapper">
                   <img class="footer__image footer__icon" src="img/e-mail.svg" alt="icon: phone call">
                 </div>
-                <a class="footer__mail" href="https://cherly.lawson@example.com">
+                <a class="footer__mail" href="mailto:cherly.lawson@example.com">
                 cherly.lawson@example.com
                 </a>
               </li>

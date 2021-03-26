@@ -2,9 +2,6 @@
 <html lang="en">
 
 <head>
-  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
-  <script src="/js/jquery-1.11.3.min.js"></script>
-  <script src="/js/parallax.js"></script>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,7 +15,7 @@
 </head>
 
 <body>
-  <header class="navbar navbar__mobile--fixed">
+  <header class="navbar navbar-mob-fixed">
     <div class="container">
       <div class="navbar-top">
         <a href="https://lera-shakhova.ru/index.html" class="logo">
@@ -26,9 +23,9 @@
         </a>
         <form action="#" class="search navbar__search navbar__search--mobile_hidden">
           <input type="text" class="search__input" placeholder="Search Location">
-          <button class="search__button" type="submit">
+          <a class="search__button">
             <img src="img/search.svg" alt="Icon: search">
-          </button>
+          </a>
         </form>
         <a href="#" class="user navbar__user navbar__user--mobile_hidden">
           <img src="img/user-avatar.jpg" alt="Avatar: Nathan" class="user__avatar">
@@ -97,11 +94,11 @@
   </nav>
   <!-- /.breadcrumb -->
   <div class="container">
-            <h1 class="hotel-name hotel-info__name">Message sent!</h1>
-          <h3 class="hotel-description hotel-info__description">Our manager will contact you within 5 minutes!</h3>
-         <a href="https://lera-shakhova.ru/index.html"> 
-          <button class="button button__home button-auto" type="submit">Home</button>
-          </a>
+    <div class="thanks">
+            <h1 class="hotel-name">Message sent!</h1>
+          <h2 class="hotel-description">Our manager will contact you within 5 minutes!</h3>
+          <a href="https://lera-shakhova.ru/index.html" class="footer-button"> Home</a>
+        </div>
   </div>
   <footer class="footer">
     <div class="container">
@@ -189,22 +186,7 @@
           </ul>
         </div>
         <!-- /footer__contact-details -->
-        <div class="footer__contact-form">
-          <h3 class="footer__title footer__title--mb-3">Send us a message</h3>
-          <form action="send.php" method="POST" class="footer__form form">
-            <div class="footer__input-group">
-              <input type="text" class="input footer__input" placeholder="Your Full Name*" name="name" required>
-            </div>
-            <div class="footer__input-group">
-              <input type="tel" class="input footer__input" placeholder="Phone Number*" name="phone" id="phone-2"
-                required>
-            </div>
-            <textarea class="message footer__message" placeholder="Message" name="message"></textarea>
-            <button class="button button-auto footer__button" type="submit">Send</button>
-            <span class="footer__info">* Required Fields</span>
-          </form>
-        </div>
-        <!-- /footer__contact-form -->
+        
         <div class="footer__pay">
           <h4 class="footer__pay-text">Disclaimer Conditions of use Cancellation policy</h4>
           <div class="footer__icon-pay">
@@ -218,11 +200,7 @@
     </div>
     <!-- /.container -->
   </footer>
-  <script src="js/jquery-3.6.0.min.js"></script>
-  <script src="js/swiper-bundle.min.js"></script>
-  <script src="js/main.js"></script>
-  <script src="js/jquery.validate.min.js"></script>
-  <script src="js/mymap.js"></script>
+ 
 </body>
 
 </html>
