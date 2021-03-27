@@ -55,6 +55,10 @@ function openModal() {
   var modalDialog = $(".modal__dialog");
   modalOverlay.addClass('modal__overlay--visible');
   modalDialog.addClass('modal__dialog--visible');
+  if ($(window).height()<modalDialog.height()){
+    $(".modal__dialog.modal__dialog--visible")[0].style.overflow='auto';
+    $(".modal__dialog.modal__dialog--visible")[0].style.height='96vh';
+  };
 }
 function closeModal(event) {
   event.preventDefault ();
@@ -62,6 +66,7 @@ function closeModal(event) {
   var modalDialog = $(".modal__dialog");
   modalOverlay.removeClass('modal__overlay--visible');
   modalDialog.removeClass('modal__dialog--visible');
+  
 }
 $("#phone").mask("+7(999) 999-9999");
 $("#phone-2").mask("+7(999) 999-9999");
