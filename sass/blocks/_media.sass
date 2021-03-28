@@ -25,7 +25,7 @@
     justify-content: space-between
   .footer__input
     &-group
-      flex-basis: 100%
+      flex-basis: 47%
 @media (max-width: 992px)
   a:hover
     cursor: auto
@@ -38,6 +38,9 @@
     &__image
       cursor: auto
   .navbar
+    &-menu
+      &__link
+        font-size: 12px
     &-top
       padding-top: 30px
       padding-bottom: 30px
@@ -61,8 +64,6 @@
       flex-direction: row
     &-slider
       width: 100%
-    &-info
-      padding-bottom: 16px
   .booking
     width: 340px
     &__button
@@ -373,6 +374,12 @@
       &--inline
         margin: 0
         margin-right: 10px
+    &__social
+      &-links
+        width: 60px
+        margin-top: 10px
+      &-network
+        flex-direction: column
 
 @media ( max-width: 576px )
   .logo
@@ -519,7 +526,7 @@
   .modal
     &__dialog
       &--visible
-        padding: 20px 20px
+        padding: 30px
     &__info
       padding: 15px 0
       &-section
@@ -530,6 +537,7 @@
       margin-top: 0
 @media ( max-width: 320px )
   .modal
+    padding:
     &__button
       width: 100%
     &__info
