@@ -1,14 +1,6 @@
 $(document).ready(function(){
-var windowtWidth=$(window).width(); 
-if (windowtWidth<=992){
-  $(".footer-wrapper")[0].style['grid-template-columns']='repeat(2, minmax(max-content, 1fr))';
-}; 
-if (windowtWidth<=765){
-  $(".footer-wrapper")[0].style['grid-template-columns']='repeat(2, minmax(max-content, 1fr))';
-};
-if (windowtWidth<=768 && 576<windowtWidth){
-
-}; 
+ 
+ 
 var hotelSlider = new Swiper('.hotel-slider', {
   // Optional parameters
   loop: true,

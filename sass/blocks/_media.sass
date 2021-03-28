@@ -140,8 +140,9 @@
   .footer
     grid-gap: 50px
     &-wrapper
-      grid-template-columns: pereat(7, 150px)
+      grid-template-columns: repeat(2, minmax(max-content, 1fr))
       grid-row-gap: 40px
+      grisd-gap: 30px
       &-text
         margin-right: 190px
     &__info
@@ -363,6 +364,11 @@
     &__input
       &-group
         flex-basis: 100%
+    &__additional
+      grid-row: 3
+      grid-column: 1
+    &-wrapper
+      grid-template-columns: repeat(4, minmax(max-content, 1fr))
 
 @media ( max-width: 576px )
   .logo
