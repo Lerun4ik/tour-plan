@@ -154,6 +154,8 @@
       grisd-gap: 30px
       &-text
         margin-right: 190px
+    &__title
+      margin-top: 10px
     &__info
       font-size: 10px
     &__link
@@ -177,6 +179,8 @@
       width: 95px
       margin-top: 0
     &__social
+      &-links
+        align-items: end
       &-network
         grid-row: 1/2
         grid-column: span 4
@@ -199,6 +203,7 @@
     &__pay
       grid-column: span 6
       justify-content: space-between
+      padding: 0
     &__legal
       margin-left: 0
   .raiting
@@ -232,6 +237,7 @@
           margin-left: 0
           &-mb
             margin-bottom: 39px
+
     &-mob
       &-fixed
         position: fixed
@@ -265,7 +271,7 @@
       padding-top: 0
       &__item
         &-mb:not(:last-of-type)
-          margin-bottom: 17px
+          margin-bottom: 15px
         &--mobile
           &_visible
             display: block
@@ -440,6 +446,8 @@
     height: 50px
     margin-bottom: 5px
   .reviews-slider
+    &__text
+      text-align: left
     &__profile
       height: 149px
   .card
